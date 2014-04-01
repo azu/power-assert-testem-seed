@@ -1,0 +1,16 @@
+{
+    "framework": "mocha",
+    "src_files": [
+        "./bower_components/assert/assert.js",
+        "./bower_components/empower/lib/empower.js",
+        "./bower_components/power-assert-formatter/lib/power-assert-formatter.js",
+        "./bower_components/power-assert/lib/power-assert.js",
+        "./powered-test/*.js"
+    ],
+    "launchers": {
+        "Node": {
+            "command": "mocha tests.js -R tap",
+            "protocol": "tap"
+        }
+    }
+}

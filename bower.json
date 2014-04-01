@@ -1,0 +1,19 @@
+{
+  "name": "power-assert-testem-seed",
+  "version": "0.0.3",
+  "homepage": "https://github.com/azu/power-assert-testem-seed",
+  "authors": [
+    "azu <azuciao@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "power-assert": "~0.4.1"
+  }
+}

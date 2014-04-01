@@ -1,0 +1,28 @@
+{
+  "name": "power-assert-testem-seed",
+  "description": "power assert example project",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/power-assert-testem-seed/",
+  "repository": {
+    "url": "git://github.com/azu/power-assert-testem-seed.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/power-assert-testem-seed/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-espower": "^0.4.0",
+    "gulp-mocha": "^0.4.1",
+    "power-assert": "^0.4.1",
+    "testem": "^0.6.14"
+  }
+}

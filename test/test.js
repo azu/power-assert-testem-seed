@@ -1,5 +1,7 @@
 "use strict";
-var assert = require('power-assert');
+if (typeof require == "function" && typeof module == "object") {
+    var assert = require('power-assert');
+}
 describe('Array', function () {
     beforeEach(function () {
         this.ary = [1, 2, 3];

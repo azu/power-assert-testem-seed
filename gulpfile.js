@@ -12,6 +12,9 @@ gulp.task("power-assert", function () {
         .pipe(espower())
         .pipe(gulp.dest(paths.powered_test_dist));
 });
+gulp.task("watch-power-assert", function () {
+    return gulp.watch(paths.test, ["power-assert"]);
+});
 gulp.task("test", ["power-assert"], function () {
     gulp.src(paths.powered_test)
         .pipe(mocha());

@@ -1,6 +1,6 @@
 # power-assert-testem-seed
 
-Example project of [power-assert](https://github.com/twada/power-assert "power-assert") + [gulp-espower](https://github.com/twada/gulp-espower "gulp-espower").
+Example project of [power-assert](https://github.com/twada/power-assert "power-assert") + [gulp-espower](https://github.com/twada/gulp-espower "gulp-espower") + [testem](https://github.com/airportyh/testem " testem").
 
 <img src="http://efcl.info/wp-content/uploads/2014/04/power-.mov.gif" alt="Power mov" title="power-.mov.gif" border="0" width="600" height="400" />
 

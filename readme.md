@@ -28,7 +28,7 @@ Node.js
 gulp test
 ```
 
-Browser
+Node.js + Browser
 
 ``` sh
 testem # open browser

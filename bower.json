@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "power-assert": "~0.4.1"
+    "power-assert": "~0.6.0"
   }
 }

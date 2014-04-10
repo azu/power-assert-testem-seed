@@ -1,6 +1,11 @@
 {
     "framework": "mocha",
+    "before_tests": "gulp power-assert",
     "src_files": [
+        "./test/*.js"
+    ],
+    "on_exit": "rm -rf ./powered-test/",
+    "serve_files": [
         "./bower_components/assert/assert.js",
         "./bower_components/empower/lib/empower.js",
         "./bower_components/power-assert-formatter/lib/power-assert-formatter.js",

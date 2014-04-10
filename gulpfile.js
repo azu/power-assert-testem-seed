@@ -16,6 +16,6 @@ gulp.task("watch-power-assert", function () {
     return gulp.watch(paths.test, ["power-assert"]);
 });
 gulp.task("test", ["power-assert"], function () {
-    gulp.src(paths.powered_test)
+    return gulp.src(paths.powered_test)
         .pipe(mocha());
 });

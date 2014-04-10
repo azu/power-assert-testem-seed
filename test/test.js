@@ -2,18 +2,17 @@
 if (typeof require == "function" && typeof module == "object") {
     var assert = require('power-assert');
 }
+function sum(ary){
+    return ary.reduce(function (prev, current) {
+        return prev + current;
+    }, 0);
+}
 describe('Array', function () {
-    beforeEach(function () {
-        this.ary = [1, 2, 3];
-    });
+    var ary = [1, 2, 3];
     describe('#indexOf()', function () {
         it('should return index when the value is present', function () {
-            var zero = 0, two = 2;
-            assert(this.ary.indexOf(zero) === two);
-        });
-        it('should return -1 when the value is not present', function () {
-            var minusOne = -1, two = 2;
-            assert.ok(this.ary.indexOf(two) === minusOne, 'THIS IS AN ASSERTION MESSAGE');
+            var expected = 1 + 2 + 30;
+            assert(sum(ary) === expected);
         });
     });
 });

@@ -22,7 +22,7 @@
     "gulp": "^3.6.0",
     "gulp-espower": "^0.7.0",
     "gulp-mocha": "^0.4.1",
-    "power-assert": "^0.7.0",
+    "power-assert": "^0.7.2",
     "testem": "^0.6.14"
   }
 }
